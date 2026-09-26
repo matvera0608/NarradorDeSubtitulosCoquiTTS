@@ -145,6 +145,7 @@ echo .........................................................................
 
 :INICIAR_O_ACTUALIZAR
     echo.
+    REM En este IF ELSE aparece no se espera el ELSE en este momento
     IF NOT EXIST ".git" (
         color 0B
         echo Inicializando nuevo repositorio...
@@ -159,7 +160,6 @@ echo .........................................................................
         git add .
         git commit -m "%COMMIT_MESSAGE%"
         git branch -M main
-        GOTO PUSHEO_INICIAL
     )
 
     GOTO PUSHEO_INICIAL

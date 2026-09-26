@@ -1,5 +1,7 @@
 import re, naturalization
 
+#Este archivo estimating.py contiene las funciones para calcular la estimación de la duración del audio antes de exportar
+
 def termina_en_pausa_suave(texto):
     return texto.strip().endswith(",") or texto.strip().endswith("—")
 
