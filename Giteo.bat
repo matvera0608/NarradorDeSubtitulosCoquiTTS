@@ -153,7 +153,7 @@ echo .........................................................................
         git commit -m "%COMMIT_MESSAGE%"
         git branch -M main
         SET /P "URL=Ingresa la URL del repositorio de GitHub: "
-        git remote add origin "%URL%"
+        git remote add origin "!URL!"
     ) ELSE (
         echo 📁 Repositorio detectado. Preparando cambios...
         git add .
