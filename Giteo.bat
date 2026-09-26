@@ -4,7 +4,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 SET MAX_INTENTOS=5
 SET INTENTO=1
 SET INTENTO_DE_PUSHEO=1
-SET COMMIT_MESSAGE=Ejecutando mi editor de fotos en una venv e ignorando las carpetas pesadas de venv
+SET COMMIT_MESSAGE=Mi primer sistema de narración de subtítulos creada con librerías de IA.
 echo .........................................................................
 echo Giteo v2.3 pro
 echo Iniciando subida a GitHub...
@@ -153,7 +153,7 @@ echo .........................................................................
         git commit -m "%COMMIT_MESSAGE%"
         git branch -M main
         SET /P "URL=Ingresa la URL del repositorio de GitHub: "
-        git remote add origin %URL%
+        git remote add origin "%URL%"
     ) ELSE (
         echo 📁 Repositorio detectado. Preparando cambios...
         git add .
