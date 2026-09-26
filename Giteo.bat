@@ -162,6 +162,8 @@ echo .........................................................................
         GOTO PUSHEO_INICIAL
     )
 
+    GOTO PUSHEO_INICIAL
+
 
 :PUSHEO_INICIAL
     echo.
