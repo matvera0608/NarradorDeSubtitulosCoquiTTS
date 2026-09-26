@@ -1,0 +1,16 @@
+# Python 
+__pycache__/ 
+audio/ 
+*.pyc 
+.venv/ 
+venv/ 
+venv_narracion_CPU 
+Mbeju.txt 
+idiomas_disponibles.txt 
+*.py[cod] 
+$py.class 
+.vscode/  
+.idea/  
+*.tmp  
+*.temp  
+*.log  

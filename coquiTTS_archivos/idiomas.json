@@ -1,0 +1,424 @@
+{
+     "idiomas": {
+          "es": {
+               "nombre": "Español",
+               "familia": "romance",
+               "silencio_ms": 180,
+               "longitud_maxima": 80,
+               "variantes": {
+                    "es-ES": {
+                         "nombre": "España",
+                         "diccionario": "es-ES.json"
+                    },
+                    "es-AR": {
+                         "nombre": "Argentina",
+                         "diccionario": "es-AR.json"
+                    },
+                    "es-PY": {
+                         "nombre": "Paraguay",
+                         "diccionario": "es-PY.json"
+                    },
+                    "es-CO": {
+                         "nombre": "Colombia",
+                         "diccionario": "es-CO.json"
+                    },
+                    "es-MX": {
+                         "nombre": "México",
+                         "diccionario": "es-MX.json"
+                    },
+                    "es-UY": {
+                         "nombre": "Uruguay",
+                         "diccionario": "es-UY.json"
+                    }
+               }
+          },
+          "fr": {
+               "nombre": "Francés",
+               "familia": "romance",
+               "silencio_ms": 180,
+               "longitud_maxima": 80,
+               "variantes": {
+                    "fr-FR": {
+                         "nombre": "Francia",
+                         "diccionario": "fr-FR.json"
+                    },
+                    "fr-CA": {
+                         "nombre": "Canadá",
+                         "diccionario": "fr-CA.json"
+                    },
+                    "fr-BE": {
+                         "nombre": "Bélgica",
+                         "diccionario": "fr-BE.json"
+                    }
+               }
+          },
+          "pt": {
+               "nombre": "Portugués",
+               "familia": "romance",
+               "silencio_ms": 180,
+               "longitud_maxima": 80,
+               "variantes": {
+                    "pt-PT": {
+                         "nombre": "Portugal",
+                         "diccionario": "pt-PT.json"
+                    },
+                    "pt-BR": {
+                         "nombre": "Brasil",
+                         "diccionario": "pt-BR.json"
+                    }
+               }
+          },
+          "it": {
+               "nombre": "Italiano",
+               "familia": "romance",
+               "silencio_ms": 180,
+               "longitud_maxima": 80,
+               "variantes": {
+                    "it-IT": {
+                         "nombre": "Italia",
+                         "diccionario": "it-IT.json"
+                    }
+               }
+          },
+          "en": {
+               "nombre": "Inglés",
+               "familia": "germánico",
+               "silencio_ms": 200,
+               "longitud_maxima": 70,
+               "variantes": {
+                    "en-US": {
+                         "nombre": "Estados Unidos",
+                         "diccionario": "en-US.json"
+                    },
+                    "en-GB": {
+                         "nombre": "Reino Unido",
+                         "diccionario": "en-GB.json"
+                    },
+                    "en-AU": {
+                         "nombre": "Australia",
+                         "diccionario": "en-AU.json"
+                    }
+               }
+          },
+          "de": {
+               "nombre": "Alemán",
+               "familia": "germánico",
+               "silencio_ms": 200,
+               "longitud_maxima": 70,
+               "variantes": {
+                    "de-DE": {
+                         "nombre": "Alemania",
+                         "diccionario": "de-DE.json"
+                    },
+                    "de-AT": {
+                         "nombre": "Austria",
+                         "diccionario": "de-AT.json"
+                    },
+                    "de-CH": {
+                         "nombre": "Suiza",
+                         "diccionario": "de-CH.json"
+                    }
+               }
+          },
+          "nl": {
+               "nombre": "Neerlandés",
+               "familia": "germánico",
+               "silencio_ms": 200,
+               "longitud_maxima": 70,
+               "variantes": {
+                    "nl-NL": {
+                         "nombre": "Países Bajos",
+                         "diccionario": "nl-NL.json"
+                    },
+                    "nl-BE": {
+                         "nombre": "Bélgica",
+                         "diccionario": "nl-BE.json"
+                    },
+                    "nl-SR": {
+                         "nombre": "Surinam",
+                         "diccionario": "nl-SR.json"
+                    }
+               }
+          },
+          "ja": {
+               "nombre": "Japonés",
+               "familia": "asiático",
+               "silencio_ms": 250,
+               "longitud_maxima": 35,
+               "speed_min": 1.00,
+               "speed_max": 1.08,
+               "usa_puntuacion_japonesa": true,
+               "evitar_espacios": true,
+               "prosodia": {
+                    "ajuste_por_kana": false,
+                    "ajuste_por_mora": false,
+                    "pausas_artificiales": false
+               },
+               "variantes": {
+                    "ja-JP": {
+                         "nombre": "Japón",
+                         "diccionario": "ja-JP.json"
+                    }
+               }
+          },
+          "zh-cn": {
+               "nombre": "Chino Mandarín",
+               "familia": "asiático",
+               "silencio_ms": 230,
+               "longitud_maxima": 40,
+               "speed_min": 0.90,
+               "speed_max": 1.02,
+               "usa_comas_chinas": true,
+               "evitar_espacios": true,
+               "variantes": {
+                    "zh-CN": {
+                         "nombre": "China",
+                         "diccionario": "zh-CN.json"
+                    },
+                    "zh-TW": {
+                         "nombre": "Taiwán",
+                         "diccionario": "zh-TW.json"
+                    },
+                    "zh-HK": {
+                         "nombre": "Hong Kong",
+                         "diccionario": "zh-HK.json"
+                    },
+                    "zh-SG": {
+                         "nombre": "Singapur",
+                         "diccionario": "zh-SG.json"
+                    }
+               }
+          },
+          "ko": {
+               "nombre": "Coreano",
+               "familia": "asiático",
+               "silencio_ms": 230,
+               "longitud_maxima": 40,
+               "speed_min": 0.90,
+               "speed_max": 1.02,
+               "evitar_espacios": true,
+               "variantes": {
+                    "ko-KR": {
+                         "nombre": "Corea del Sur",
+                         "diccionario": "ko-KR.json"
+                    },
+                    "ko-KP": {
+                         "nombre": "Corea del Norte",
+                         "diccionario": "ko-KP.json"
+                    }
+               }
+          },
+          "ru": {
+               "nombre": "Ruso",
+               "familia": "eslavo",
+               "silencio_ms": 220,
+               "longitud_maxima": 70,
+               "max_compresion": 0.88,
+               "max_expansion": 1.12,
+               "split_por_comas": true,
+               "usa_comillas_rusas": true,
+               "variantes": {
+                    "ru-RU": {
+                         "nombre": "Rusia",
+                         "diccionario": "ru-RU.json"
+                    }
+               }
+          },
+          "pl": {
+               "nombre": "Polaco",
+               "familia": "eslavo",
+               "silencio_ms": 220,
+               "longitud_maxima": 70,
+               "variantes": {
+                    "pl-PL": {
+                         "nombre": "Polonia",
+                         "diccionario": "pl-PL.json"
+                    }
+               }
+          },
+          "cs": {
+               "nombre": "Checo",
+               "familia": "eslavo",
+               "silencio_ms": 220,
+               "longitud_maxima": 70,
+               "variantes": {
+                    "cs-CZ": {
+                         "nombre": "República Checa",
+                         "diccionario": "cs-CZ.json"
+                    }
+               }
+          },
+          "hu": {
+               "nombre": "Húngaro",
+               "familia": "urálico",
+               "silencio_ms": 220,
+               "longitud_maxima": 70,
+               "variantes": {
+                    "hu-HU": {
+                         "nombre": "Hungría",
+                         "diccionario": "hu-HU.json"
+                    }
+               }
+          },
+          "tr": {
+               "nombre": "Turco",
+               "familia": "túrquico",
+               "silencio_ms": 220,
+               "longitud_maxima": 70,
+               "variantes": {
+                    "tr-TR": {
+                         "nombre": "Turquía",
+                         "diccionario": "tr-TR.json"
+                    }
+               }
+          },
+          "ar": {
+               "nombre": "Árabe",
+               "familia": "semítico",
+               "silencio_ms": 250,
+               "longitud_maxima": 50,
+               "usa_comas_arabes": true,
+               "evitar_espacios": true,
+               "variantes": {
+                    "ar-SA": {
+                         "nombre": "Arabia Saudita",
+                         "diccionario": "ar-SA.json"
+                    },
+                    "ar-EG": {
+                         "nombre": "Egipto",
+                         "diccionario": "ar-EG.json"
+                    },
+                    "ar-AE": {
+                         "nombre": "Emiratos Árabes Unidos",
+                         "diccionario": "ar-AE.json"
+                    }
+               }
+          },
+          "he": {
+               "nombre": "Hebreo",
+               "familia": "semítico",
+               "silencio_ms": 250,
+               "longitud_maxima": 50,
+               "speed_min": 0.90,
+               "speed_max": 1.05,
+               "usa_comas_hebreas": true,
+               "evitar_espacios": true,
+               "variantes": {
+                    "he-IL": {
+                         "nombre": "Israel",
+                         "diccionario": "he-IL.json"
+                    }
+               }
+          },
+          "hi": {
+               "nombre": "Hindi",
+               "familia": "indoaria",
+               "silencio_ms": 250,
+               "longitud_maxima": 50,
+               "usa_comas_hindi": true,
+               "evitar_espacios": true,
+               "variantes": {
+                    "hi-IN": {
+                         "nombre": "India",
+                         "diccionario": "hi-IN.json"
+                    }
+               }
+          }
+     },
+     "perfiles_familia_linguistica": {
+          "romance": {
+               "nombre": "Romance",
+               "speed": 1.08,
+               "temperature": 0.58,
+               "repetition_penalty": 1.85,
+               "factor_min": 0.92,
+               "factor_max": 1.10,
+               "speed_min": 0.95,
+               "speed_max": 1.12,
+               "speaker": "reference_es.wav"
+          },
+          "germánico": {
+               "nombre": "Germánico",
+               "speed": 1.05,
+               "temperature": 0.50,
+               "repetition_penalty": 2.00,
+               "factor_min": 0.90,
+               "factor_max": 1.10,
+               "speed_min": 0.95,
+               "speed_max": 1.15,
+               "speaker": "reference_en.wav"
+          },
+          "asiático": {
+               "nombre": "Asiático",
+               "speed": 1.20,
+               "temperature": 0.63,
+               "repetition_penalty": 2.01,
+               "factor_min": 0.90,
+               "factor_max": 1.10,
+               "speaker": "reference_jp.wav"
+          },
+          "eslavo": {
+               "nombre": "Eslavo",
+               "speed": 1.25,
+               "temperature": 0.70,
+               "repetition_penalty": 1.90,
+               "factor_min": 0.85,
+               "factor_max": 1.15,
+               "speed_min": 0.95,
+               "speed_max": 1.06,
+               "min_ratio": 0.90,
+               "max_ratio": 1.15,
+               "speaker": "reference_en_2.wav"
+          },
+          "urálico": {
+               "nombre": "Urálico",
+               "speed": 1.25,
+               "temperature": 0.70,
+               "repetition_penalty": 1.90,
+               "factor_min": 0.85,
+               "factor_max": 1.15,
+               "speed_min": 0.95,
+               "speed_max": 1.06,
+               "min_ratio": 0.90,
+               "max_ratio": 1.15,
+               "speaker": "reference_en_2.wav"
+          },
+          "túrquico": {
+               "nombre": "Túrquico",
+               "speed": 1.25,
+               "temperature": 0.70,
+               "repetition_penalty": 1.90,
+               "factor_min": 0.85,
+               "factor_max": 1.15,
+               "speed_min": 0.95,
+               "speed_max": 1.06,
+               "min_ratio": 0.90,
+               "max_ratio": 1.15,
+               "speaker": "reference_en_2.wav"
+          },
+          "semítico": {
+               "nombre": "Semítico",
+               "speed": 1.20,
+               "temperature": 0.70,
+               "repetition_penalty": 1.90,
+               "factor_min": 0.85,
+               "factor_max": 1.15,
+               "speed_min": 0.90,
+               "speed_max": 1.05,
+               "min_ratio": 0.90,
+               "max_ratio": 1.15,
+               "speaker": "reference_jp.wav"
+          },
+          "indoaria": {
+               "nombre": "Indoaria",
+               "speed": 1.20,
+               "temperature": 0.70,
+               "repetition_penalty": 1.90,
+               "factor_min": 0.85,
+               "factor_max": 1.15,
+               "speed_min": 0.90,
+               "speed_max": 1.05,
+               "speaker": "reference_en.wav"
+          }
+     }
+}

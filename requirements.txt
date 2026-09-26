@@ -1,0 +1,14 @@
+coqui-tts==0.27.5
+numpy==1.26.4
+coqpit-config==0.2.4
+transformers==4.57.0
+huggingface-hub==0.36.2
+tokenizers==0.22.2
+torch==2.6.0
+torchaudio==2.6.0
+unidic-lite
+pysrt
+pydub
+cutlet
+customtkinter
+tkinterdnd2
